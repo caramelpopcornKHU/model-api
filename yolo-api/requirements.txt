@@ -1,0 +1,8 @@
+# requirements.txt
+fastapi
+uvicorn[standard]
+ultralytics
+Pillow
+# ultralytics가 torch와 torchvision을 자동으로 설치하지만, 명시해주는 것이 좋습니다.
+torch
+torchvision
